@@ -1,11 +1,12 @@
-.cabecalho{
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
-.cabecalho__menu{
+.cabecalho__menu {
     width: 24px;
     height: 24px;
     background-image: url("../assets/Menu.svg");
@@ -14,11 +15,39 @@
     background-position: center;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
 }
 
-.container__imagem{
+.container__imagem {
     padding: 1em;
+}
+
+.container__checkbox:checked ~ .cabecalho__menu__lista {
+    display: block;
+}
+
+.cabecalho__menu__lista {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 70vw;
+}
+
+.menu__lista__titulo, .menu__lista__item {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.menu__lista__titulo {
+    color: var(--laranja);
+}
+
+.menu__lista__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
