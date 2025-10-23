@@ -1,0 +1,8 @@
+hr{
+    margin: 0;
+}
+
+.rodape {
+    color: var(--preto);
+    margin: 1.5em;
+}
