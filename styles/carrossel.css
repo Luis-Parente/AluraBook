@@ -38,12 +38,13 @@
 
 .descricao__titulo{
     color: var(--laranja);
+    margin-top: 1em;
 }
 
 .descricao__livro{
     font-size: 18px;
     color: var(--azul-escuro);
-    margin: 0.5em 0;
+    margin: 1em 0;
 }
 
 .descricao__texto{
