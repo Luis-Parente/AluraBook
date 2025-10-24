@@ -59,5 +59,9 @@
     .banner__pesquisa{
         width: 32%;
     }
+
+    .banner__pesquisa::placeholder{
+        background-position: 11em;
+    }
 }
 

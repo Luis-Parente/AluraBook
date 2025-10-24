@@ -95,4 +95,45 @@
         width: 45%;
         margin: 2em auto;
     }
+
+     .botao__informacoes{
+        width: 28%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel__container{
+        display: flex;
+        margin: 2em 10vw 3em 15vw;
+        gap: 4em;
+    }
+
+    .carrossel__titulo{
+        padding: 2em 0 1em 0;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .card{
+        width: 60%;
+    }
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+        width: 80%;
+    } 
+
+    .card__imagem{
+        width: auto;
+    }
+
+    .botao__informacoes{
+        width: 21%;
+    }
 }
