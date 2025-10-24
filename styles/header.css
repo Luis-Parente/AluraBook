@@ -26,6 +26,10 @@
     display: none;;
 }
 
+.container__texto{
+    display: none;
+}
+
 .container__imagem {
     display: block;
 }
@@ -119,5 +123,29 @@
 
     .opcoes__checkbox {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+
+    .cabecalho{
+        padding: 0 1em;
+    }
+
+    .container__link{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .container__texto{
+        color: var(--preto);
+        font-size: 20px;
+        display: block;
+    }
+
+    .opcoes{
+        margin-right: auto;
     }
 }
